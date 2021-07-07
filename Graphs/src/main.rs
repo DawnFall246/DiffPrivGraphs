@@ -130,6 +130,10 @@ fn avg_shortest_from_vertex(g: &mut Graph, s: Vertex) -> f64 {
     return (m as f64) / (g.V.len() as f64);
 }
 
+fn dummy(){
+    print!("Hello world!");
+}
+
 fn avg_shortest_path(g: &mut Graph) -> f64 {
     let mut total = 0.;
     for s in g.V.clone().iter() {
